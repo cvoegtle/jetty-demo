@@ -2,11 +2,10 @@
 <module version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/gwt-unitCache" />
-      <excludeFolder url="file://$MODULE_DIR$/launchDir" />
-      <excludeFolder url="file://$MODULE_DIR$/workDir" />
-      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/shelf" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
+      <excludeFolder url="file://$MODULE_DIR$/workDir" />
+      <excludeFolder url="file://$MODULE_DIR$/gwt-unitCache" />
     </content>
   </component>
 </module>
