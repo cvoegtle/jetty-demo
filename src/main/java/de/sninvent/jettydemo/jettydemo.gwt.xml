@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='demo'>
+
+    <!-- Inherit the core Web Toolkit stuff. -->
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name="com.google.gwt.i18n.I18N"/>
+    <inherits name='com.google.gwt.logging.Logging'/>
+
+    <!-- Inherit Debug stuff. -->
+    <!--  <inherits name="com.google.gwt.user.Debug" /> -->
+
+    <!-- enable/disable logging handlers -->
+    <set-property name='gwt.logging.enabled' value='TRUE'/>
+    <!-- <set-property name='gwt.logging.logLevel' value='ALL' /> -->
+    <set-property name='gwt.logging.consoleHandler' value='DISABLED'/>
+    <set-property name='gwt.logging.systemHandler' value='DISABLED'/>
+    <set-property name='gwt.logging.developmentModeHandler' value='DISABLED'/>
+    <set-property name="gwt.logging.simpleRemoteHandler" value="ENABLED"/>
+
+    <set-configuration-property name="CssResource.enableGss" value="true" />
+
+    <!-- die Hilfe ist nur auf Deutsch und Englisch verfügbar und wird für die einzelnen Sprachvarianten nicht übersetzt -->
+    <extend-property name="locale" values="en"/>
+    <extend-property name="locale" values="de"/>
+
+    <set-property-fallback name="locale" value="en"/>
+    <!-- <collapse-all-properties /> -->
+
+
+    <!-- <set-configuration-property name="CssResource.style" value="pretty"/> -->
+    <add-linker name="xsiframe"/>
+
+    <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+
+    <!-- Specify the app entry point class. -->
+    <entry-point class='de.sninvent.jettydemo.client.Demo'/>
+
+    <set-property name='user.agent' value='gecko1_8,safari'/>
+    <set-configuration-property name="UiBinder.useSafeHtmlTemplates" value="true"/>
+
+    <source path="client"/>
+
+</module>

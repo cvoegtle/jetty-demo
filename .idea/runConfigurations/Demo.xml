@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Demo" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+    <option name="SHELL_PARAMETERS" value="-strict -workDir C:\Users\cvoegtle\workspace\GlobalFormat\jetty-demo\workDir -war C:\Users\cvoegtle\workspace\GlobalFormat\jetty-demo\launchDir" />
+    <option name="RUN_PAGE" value="hello.html" />
+    <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+    <option name="USE_SUPER_DEV_MODE" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre" />
+    <option name="WORKING_DIRECTORY" value="" />
+    <log_file alias="gflegi.log" path="$MODULE_DIR$/launchDir/logs/gflegi.log" />
+    <module name="jetty-demo" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
